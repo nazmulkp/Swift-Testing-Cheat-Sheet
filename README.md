@@ -14,8 +14,12 @@ A comprehensive guide to help you get started with Swift Testing. This cheat she
 8. [Avoiding Redundancies](#8-avoiding-redundancies)
 9. [Comparison with XCTest](#9-comparison-with-xctest)
 10. [Migrating from XCTest to Swift Testing](#10-migrating-from-xctest-to-swift-testing)
-
-
+```
+// Open your project in Xcode.
+// Go to File > New > Target.
+// Choose "Unit Testing Bundle".
+// Name your test target (e.g., MyProjectTests).
+```
 ## 1. Basic Syntax
 
 **Define a Test Suite:**
