@@ -13,6 +13,8 @@ A comprehensive guide to help you get started with Swift Testing. This cheat she
 7. [Grouping Tests](#7-grouping-tests)
 8. [Avoiding Redundancies](#8-avoiding-redundancies)
 9. [Comparison with XCTest](#9-comparison-with-xctest)
+10. [Migrating from XCTest to Swift Testing](#10-Migrating-from-XCTest-to-Swift-Testing)
+
 
 ## 1. Basic Syntax
 
@@ -153,7 +155,7 @@ struct ParentSuite {
 ```
 
 ## 8. Avoiding Redundancies
-**Remove Redundant `test` Prefix::**
+**Remove Redundant `test` Prefix:**
 ``` swift
 @Test
 func example() throws {
@@ -164,5 +166,18 @@ func example() throws {
 ## 9. Comparison with XCTest
 ![Screenshot 2024-06-11 at 6 51 18 PM](https://github.com/nazmulkp/Swift-Testing-Cheat-Sheet/assets/8841075/431c90b0-1922-4af9-8ca1-a3d7d2cb973b)
 
+## 9. Migrating from XCTest to Swift Testing
+**Supported Functionality:**
 
+Use UI automation APIs (e.g., XCUIApplication).
+Use performance testing APIs (e.g., XCTMetric).
+Continue using Objective-C only tests with XCTest.
+Avoid using XCTAssert(...) from Swift Testing tests, use #expect(...) instead.
+
+**Recommended Practices:**
+Share a single unit test target.
+Swift Testing tests can coexist with XCTest.
+Consolidate similar XCTest cases into parameterized tests.
+Migrate XCTest classes with a single test method to a global @Test function.
+Remove redundant test prefixes from method names.
 
