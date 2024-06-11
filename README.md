@@ -3,7 +3,7 @@
 A comprehensive guide to help you get started with Swift Testing. This cheat sheet covers basic syntax, assertions, setup and teardown, parameterized tests, asynchronous testing, performance testing, grouping tests, avoiding redundancies, and a comparison with XCTest.
 
 ## Table of Contents
-
+0. [Setting Up Swift Tests](#0-setting-up-swift-tests)
 1. [Basic Syntax](#1-basic-syntax)
 2. [Assertions](#2-assertions)
 3. [Setup and Teardown](#3-setup-and-teardown)
@@ -14,6 +14,9 @@ A comprehensive guide to help you get started with Swift Testing. This cheat she
 8. [Avoiding Redundancies](#8-avoiding-redundancies)
 9. [Comparison with XCTest](#9-comparison-with-xctest)
 10. [Migrating from XCTest to Swift Testing](#10-migrating-from-xctest-to-swift-testing)
+
+## 0. Setting Up Swift Tests
+**Create a Swift Test Target:**
 ```
 // Open your project in Xcode.
 // Go to File > New > Target.
