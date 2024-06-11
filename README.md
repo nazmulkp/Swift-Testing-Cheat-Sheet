@@ -13,7 +13,7 @@ A comprehensive guide to help you get started with Swift Testing. This cheat she
 7. [Grouping Tests](#7-grouping-tests)
 8. [Avoiding Redundancies](#8-avoiding-redundancies)
 9. [Comparison with XCTest](#9-comparison-with-xctest)
-10. [Migrating from XCTest to Swift Testing](#10-Migrating-from-XCTest-to-Swift-Testing)
+10. [Migrating from XCTest to Swift Testing](#10-migrating-from-xctest-to-swift-testing)
 
 
 ## 1. Basic Syntax
