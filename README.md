@@ -169,16 +169,16 @@ func example() throws {
 ## 10. Migrating from XCTest to Swift Testing
 **Supported Functionality:**
 
-Use UI automation APIs (e.g., XCUIApplication).
-Use performance testing APIs (e.g., XCTMetric).
+Use UI automation APIs (e.g., ```XCUIApplication```).
+Use performance testing APIs (e.g., ```XCTMetric```).
 Continue using Objective-C only tests with XCTest.
-Avoid using XCTAssert(...) from Swift Testing tests, use #expect(...) instead.
+Avoid using ```XCTAssert(...)``` from Swift Testing tests, use ```#expect(...)``` instead.
 
 **Recommended Practices:**
 
 Share a single unit test target.
 Swift Testing tests can coexist with XCTest.
 Consolidate similar XCTest cases into parameterized tests.
-Migrate XCTest classes with a single test method to a global @Test function.
-Remove redundant test prefixes from method names.
+Migrate XCTest classes with a single test method to a global ```@Test``` function.
+Remove redundant ```test``` prefixes from method names.
 
