@@ -162,6 +162,7 @@ func example() throws {
 ```
 
 ## 9. Comparison with XCTest
+![Screenshot 2024-06-11 at 6 51 18 PM](https://github.com/nazmulkp/Swift-Testing-Cheat-Sheet/assets/8841075/431c90b0-1922-4af9-8ca1-a3d7d2cb973b)
 
 
 
